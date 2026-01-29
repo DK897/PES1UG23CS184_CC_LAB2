@@ -1,0 +1,53 @@
+# --------------------
+# Python cache files
+# --------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --------------------
+# Virtual environments
+# --------------------
+.venv/
+venv/
+env/
+ENV/
+
+# --------------------
+# Environment variables
+# --------------------
+.env
+.env.*
+
+# --------------------
+# Locust artifacts
+# --------------------
+locust.log
+*.csv
+*.html
+
+# --------------------
+# Test & coverage reports
+# --------------------
+.coverage
+htmlcov/
+.pytest_cache/
+
+# --------------------
+# IDE / Editor files
+# --------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --------------------
+# OS-specific files
+# --------------------
+.DS_Store
+Thumbs.db
+
+# --------------------
+# Logs
+# --------------------
+*.log
